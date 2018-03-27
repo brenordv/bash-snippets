@@ -15,8 +15,8 @@ echo -e "\033[32mInstalling Docker and Docker-Compose... \033[0m"
 #sudo apt-get --assume-yes install docker.io docker-compose
 
 echo -e "\033[32mGetting docker image for Redmine and applying it... \033[0m"
-#sudo curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-redmine/master/docker-compose.yml > docker-compose.yml
-#sudo docker-compose up -d
+sudo curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-redmine/master/docker-compose.yml > docker-compose.yml
+sudo docker-compose up -d
 
 myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
 echo -e ""
