@@ -9,10 +9,10 @@ echo -e "\033[32mhttp://raccoon.ninja \033[0m"
 echo -e "\033[32m######################################################## \033[0m"
 echo -e ""
 echo -e "\033[32mUpdating apt-get... \033[0m"
-#sudo apt-get --assume-yes update
+sudo apt-get --assume-yes update
 
 echo -e "\033[32mInstalling Docker and Docker-Compose... \033[0m"
-#sudo apt-get --assume-yes install docker.io docker-compose
+sudo apt-get --assume-yes install docker.io docker-compose
 
 echo -e "\033[32mGetting docker image for Redmine and applying it... \033[0m"
 sudo curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-redmine/master/docker-compose.yml > docker-compose.yml
