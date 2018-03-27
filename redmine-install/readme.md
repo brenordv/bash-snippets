@@ -12,7 +12,7 @@ It's far from a perfect script, but works fine on Ubuntu 16.x+
 You need to make the install script runnable..
 
 ```
-sudo chdmod +x ./install_redmine_docker.sh
+sudo chmod +x ./install_redmine_docker.sh
 ```
 
 ### How to use
